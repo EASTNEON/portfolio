@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 注册app
     'gallery.apps.GalleryConfig',
+    'blog',
+
 
 ]
 
@@ -126,4 +128,4 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 # 媒体根目录
-MEDIA_ROOT = os.path.join(BASE_DIR, 'meida')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
